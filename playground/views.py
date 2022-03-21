@@ -6,7 +6,8 @@ def say_hello(request):
     return HttpResponse("Hello, World!")
 
 def say_hello_html(request):
-    return render(request, 'playground/hello.html')
+    # 데이터 전달 : context, 딕셔너리 형태
+    return render(request, 'playground/hello.html', {'name':'미림'})
 
 
 def say_bye(request):
