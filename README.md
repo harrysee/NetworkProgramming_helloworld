@@ -1,7 +1,7 @@
 # helloworld
 1. startproject helloworld
-   1. python -m pip install django~=3.2
-   2. django-admin startproject hellowrold .
+   1. python -m pip install django~=3.2 : LTS에 따라서
+   2. django-admin startproject hellowrold . :.은 manage가 현재폴더로 가게함
    3. python manage.py runserver
 2. startapp
    1. python manage.py startapp playground
